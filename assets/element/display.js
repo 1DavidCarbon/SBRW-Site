@@ -11,3 +11,14 @@ function staffMemberList(arr) {
   }
   document.getElementById("teamMemberList").innerHTML = out;
 }
+function menuDisplayList(arr) {
+  var out = "";
+  var i;
+  for(i = 0; i<arr.length; i++) {
+    out += '<li id="menu-item-' + arr[i].menuItemNum + 
+	'" class="menu-item menu-item-object-page menu-item-' + arr[i].menuItemNum + '"' + arr[i].menuSubCheck + '><a href="' +
+	arr[i].menuLink + '"' + arr[i].menuAddon + '">' + arr[i].menuTitle + '</a></li>';
+  }
+  document.getElementById("primary-menu").innerHTML = out;
+  document.getElementById("footer-menu").innerHTML = out;
+}

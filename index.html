@@ -83,18 +83,7 @@ body { font-size:14px; }
 			</div>
 			<nav id="mainnav" class="main-navigation col-md-8 col-sm-6 col-xs-12" role="navigation">
 				<div class="menu-menu-container">
-					<ul id="primary-menu" class="menu">
-						<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a href="/">Home</a></li>
-						<li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a href="https://git.io/Download_NFSW" target="_blank">Download</a></li>
-					<!-- To Create Sub-Menu use class="menu-item-200"
-						<li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a href="#">Tools</a></li>
-						<li id="menu-item-200" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-200"><a href="/" aria-current="page">Home</a>
-							<ul class="sub-menu">
-								<li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="shop\index.htm">Shop</a></li>
-							</ul>
-						</li>
-					-->
-					</ul>
+					<ul id="primary-menu" class="menu"></ul>
 				</div>
 			</nav>
 		<!-- #site-navigation -->
@@ -109,6 +98,7 @@ body { font-size:14px; }
 				<a class="button header-button" href="https://git.io/Download_NFSW" target="_blank"><b>Download Launcher</b></a>
 			</div>
 		</div>
+			<!-- #header-image -->
 			<img class="large-header" src="https://sbrw.io/assets/img/web-ss-2.jpg" width="1920" alt="In-Game Image">
 			<div class="small-header" style="width:100%;height:268.467px;">
 				<img src="https://sbrw.io/assets/img/web-ss-2.jpg" style="float:left;width:100%;height:100%;object-fit:cover;" alt="In-Game Image">
@@ -152,6 +142,34 @@ body { font-size:14px; }
 							</div>
 					</div>
 				  </section>
+				  <!-- Game Stats from Global Server or Game Server -->
+				  <section id="facts" data-color="noinherit" style="color:;background-color:#202529;padding-top:100px;padding-bottom:100px;background-image:url();" id="atframework_facts-3" class="widget atframework_facts_widget">
+				  <div class="atblock container">
+					<h2 class="widget-title" style="color:#ffffff;"><span class="title-decoration"></span>Statistics</h2>
+						<div class="fact-area">
+							<div class="fact">
+								<i class="fas fa-users"></i>
+								<div class="fact-number" data-to="4242017">4242017</div>				
+								<div class="fact-name">Total Players</div>
+							</div>
+							<div class="fact">
+								<i class="fas fa-code-branch"></i>
+								<div class="fact-number" data-to="991">991</div>			
+								<div class="fact-name">Revisions</div>
+							</div>
+							<div class="fact">
+								<i class="fas fa-server"></i>
+								<div class="fact-number" data-to="224">6</div>				
+								<div class="fact-name">Servers</div>
+							</div>
+							<div class="fact">
+								<i class="fas fa-file-archive"></i>
+								<div class="fact-number" data-to="3">3</div>				
+								<div class="fact-name">Years in Devlopment</div>
+							</div>
+						</div>
+					</div>
+					</section>
 				  <section data-color="noinherit" style="color:;background-color:#202529;padding-top:50px;padding-bottom:50px;background-image:url();" id="text-11" class="widget widget_text">
 	<div class="atblock container">
 		<h2 class="widget-title" style="color:#ffffff;"><span class="title-decoration"></span>Custom Content</h2>
@@ -296,13 +314,7 @@ body { font-size:14px; }
 		<div class="site-info container">
 			<nav id="footernav" class="footer-navigation" role="navigation">
 				<div class="menu-menu-container">
-					<ul id="footer-menu" class="menu">
-						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="#page">Home</a></li>
-					<!-- Can add more links in footer
-						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a href="#">Terms</a></li>
-						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a href="#">Tools</a></li>
-					-->
-					</ul>
+					<ul id="footer-menu" class="menu"></ul>
 				</div>
 			</nav><!-- #site-navigation -->
 			<div class="site-copyright">
@@ -315,8 +327,9 @@ body { font-size:14px; }
 	</footer><!-- #colophon -->
 </div>
 </div><!-- #page -->
-<script src='/assets/static-db/static-db-staff-list-core-reader.js'></script>
-<script src='/assets/static-db/staff-member-list.js'></script>
+<script src='/assets/element/display.js'></script>
+<script src='/assets/static-db/member-list.js'></script>
+<script src='/assets/static-db/menu-list.js'></script>
 <script type='text/javascript' src='/assets/required/main.js'></script>
 <script type='text/javascript' src='/assets/required/scripts.min.js'></script>
 <!--[if lt IE 9]>

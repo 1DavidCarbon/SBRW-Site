@@ -1269,6 +1269,14 @@ section.at-3-col {
 	font-size: 44px;
 	color: #dd3333;
 }
+.fact .fas {
+	font-size: 44px;
+	color: #dd3333;
+}
+.fact .fab {
+	font-size: 44px;
+	color: #dd3333;
+}
 .fact .fact-number {
 	font-size: 36px;
 	margin: 20px 0;
@@ -2139,6 +2147,12 @@ body.page-template-page_widgetized {
 		font-size: 28px;
 	}
 	.fact .fa {
+		font-size: 36px;
+	}
+	.fact .fas {
+		font-size: 36px;
+	}
+	.fact .fab {
 		font-size: 36px;
 	}
 	.fact .fact-name {
