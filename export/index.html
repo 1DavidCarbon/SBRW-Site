@@ -134,7 +134,10 @@ background-attachment:fixed;}
 				<input type="password" class="form-control" id="inputPassword3" placeholder="Password" v-model="password">
 			</p>
 			<p class="form-submit">
-               <button type="submit" class="btn btn-primary" @click.prevent="submit" :disabled="!canSubmit" :class="{'disabled': !canSubmit}">Export</button>
+               <button type="submit" class="button" 
+                      @click.prevent="submit"
+                      :disabled="!canSubmit" 
+                      :class="{'disabled': !canSubmit}">Export</button>
 			</p>
 		</form>
 	</div><!-- #respond -->
