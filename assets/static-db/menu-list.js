@@ -13,9 +13,8 @@ menuDisplayList([
 },
 {
  "menuItemNum": "3",
- "menuLink": "#",
- "menuTitle": "Discord",
- "menuAddon": '',
- "menuSubCheck": ' '
+ "menuLink": "/export",
+ "menuTitle": "Player Export",
+ "menuAddon": ''
 }
 ]);
